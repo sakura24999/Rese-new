@@ -129,6 +129,8 @@ https://drive.google.com/file/d/15CrOrMXIGjE19ZrZdpaZGo-MqaHmizkb/view?usp=drive
 ・決済機能
 https://drive.google.com/file/d/1n-ouW7oThIfPONsbUA6qnLbhqEuDitPc/view?usp=drive_link（決済機能）
 
+・Difyを活用したチャットポッド
+https://drive.google.com/file/d/14UT28kRgml7onYET8sTBopkhLNgloF-q/view?usp=drive_link（チャットポッド）
 
 ## 🎯 ターゲットユーザー
 
