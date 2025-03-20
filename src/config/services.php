@@ -35,4 +35,9 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'dify' => [
+        'api_key' => env('DIFY_API_KEY'),
+        'endpoint' => env('DIFY_API_ENDPOINT'),
+    ],
+
 ];

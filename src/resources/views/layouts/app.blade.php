@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ asset('css/shops.css') }}">
     <link rel="stylesheet" href="{{asset('css/menu.css')}}">
     <link rel="stylesheet" href="{{asset('css/review.css')}}">
+    <link rel="stylesheet" href="{{asset('css/chatbot.css')}}">
     @stack('styles')
 </head>
 
@@ -51,8 +52,27 @@
                 @csrf</form>
         </div>
     </div>
+    <div class="chat-widget" id="rese-chatbot">
+        <div class="chat-icon" id="chat-toggle">
+            <i class="fas fa-comment"></i>
+        </div>
+        <div class="chat-container" id="chat-container" style="display: none;">
+            <div class="chat-header">
+                <h4>Reseサポート</h4>
+                <button id="close-chat">×</button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <!-- メッセージが表示される場所 -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="質問を入力してください...">
+                <button id="send-message">送信</button>
+            </div>
+        </div>
+    </div>
 
     @stack('scripts')
+    <script src="{{asset('js/chatbot.js')}}"></script>
 
     <script>
         window.appConfig = {
